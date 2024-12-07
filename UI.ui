@@ -21,7 +21,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>Добавить круг</string>
+     <string>Добавить окружность</string>
     </property>
    </widget>
    <widget class="QFrame" name="canvas">
@@ -32,6 +32,9 @@
       <width>380</width>
       <height>200</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string>background-color: white; border: 1px solid black;</string>
     </property>
     <property name="frameShape">
      <enum>QFrame::Box</enum>
