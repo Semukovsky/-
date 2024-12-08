@@ -21,7 +21,7 @@ class Canvas(QtWidgets.QFrame):
         pen = QPen(Qt.GlobalColor.yellow, 2)
         painter.setPen(pen)
         for x, y, diameter in self.circles:
-            painter.drawEllipse(QRect(x, y, diameter, diameter)) #ffff
+            painter.drawEllipse(QRect(x, y, diameter, diameter)) #fffff
 
 class MainApp(QtWidgets.QMainWindow):
     def __init__(self):
